@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Form Practice</title>
+  </head>
+
+
+  <body>
+    <h1>These are my forms:</h1>
+
+      <form action="" method="get">
+        <textarea name="comments" rows="5" cols="10">Please write in me</textarea>
+      </form>
+
+      <form action="" method="get">
+        <h3>What is your favorite programming languge?</h3>
+          <p>
+            <input type="radio" name="choice" value="HTML"/> HTML
+            <input type="radio" name="choice" value="Objective C"/> Objective C
+            <input type="radio" name="choice" value="Python"/> Python
+            <input type="radio" name="choice" value="CSS"/> CSS
+            <input type="radio" name="choice" value="Java"/> Java
+            <input type="radio" name="choice" value="Java Script"/> Java Scrypt
+            <input type="radio" name="choice" value="PHP"/> PHP
+            <input type="radio" name="choice" value="Perl"/> Perl
+            <input type="radio" name="choice" value="BASIC"/> BASIC
+        </p>
+      </form>
+
+      <form action="" method="get">
+        <h3>What is your favorite programming languge?</h3>
+          <select name="favLang">
+            <option value="C++">C++</option>
+            <option value="rubyOnRails">Ruby on Rails</option>
+            <option value="swift">Swift</option>
+            <option value="fortran">FORTRAN</option>
+            <option value="C#">C#</option>
+            <option value="c">C</option>
+            <option value="sql">SQL</option>
+            <option value="bash">Bash</option>
+            <option value="kyrpton">KRYPTON</option>
+            <option value="unity">UNITY</option>
+          </select>
+      </form>
+
+      <form action="" method="get">
+        <h3>What programming languges do you know?</h3>
+          <select name="favLang" size="3" multiple="multiple">
+            <option value="C++" selected="selected">C++</option>
+            <option value="rubyOnRails">Ruby on Rails</option>
+            <option value="swift" selected="selected">Swift</option>
+            <option value="fortran">FORTRAN</option>
+            <option value="C#">C#</option>
+            <option value="c">C</option>
+            <option value="sql">SQL</option>
+            <option value="bash">Bash</option>
+            <option value="kyrpton">KRYPTON</option>
+            <option value="unity">UNITY</option>
+          </select>
+      </form>
+
+      <fieldset>
+        <legend>Type of Computer Person</legend>
+        <label>Hardware
+          <br />
+          <input type="radio" name="hardware" />
+        <br />
+        </label>
+        <label>Software
+          <br />
+          <input type="radio" name="software" />
+          <br />
+        </label>
+        <label>Both
+          <br />
+          <input type="radio" name="both" />
+        </label>
+      </fieldset>
