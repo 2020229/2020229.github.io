@@ -1,0 +1,58 @@
+
+  body {
+
+  }
+
+  table {
+    border-style: groove;
+    border-color: rgb(35,226,75);
+    border-width: 10px;
+    margin: auto;
+    padding: 15px;
+    align-content: center;
+    text-align:center;
+  }
+  th.topRow {
+  border-style: solid;
+  border-bottom: 10px solid black;
+  text-decoration-style: oblique;
+  padding: 15px;
+  font-size: 20px;
+  }
+
+  td {
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+  }
+
+  ul.berryList  {
+    border-width: thick;
+    text-align: left;
+    border-style: dotted;
+    border-color: blue;
+    background-color: orange;
+    list-style-type: upper-roman;
+    border-spacing: 3px;
+  }
+
+  ol.foodList {
+    text-align: left;
+  }
+
+  ol.countryList  {
+    text-align: left;
+    border-style: dashed;
+    border-color: green;
+    border-width: thick;
+    background-color: red;
+    list-style-type: disc;
+  }
+
+  tr.odd:hover  {
+    background-color: #5DBCD2;
+  }
+
+  tr.even:hover  {
+    background-color: #BEB6F2;
+  }

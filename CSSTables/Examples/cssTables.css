@@ -1,0 +1,59 @@
+
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+  background-color: #bbccaa;
+}
+
+
+
+table.one {
+  width: 700px;
+  border-spacing: 8px;
+  empty-cells: hide;
+
+}
+
+table.two {
+  width: 700px;
+  empty-cells: show;
+
+}
+
+table.three {
+  width: 700px;
+  empty-cells: hide;
+  border-collapse: collapse;
+
+}
+
+
+
+th,td {
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 2px;
+}
+
+th{
+  font-size: 90%;
+  border-bottom: 2px;
+  text-align: left;
+}
+
+tr.even {
+  background-color: #bbbbbb;
+}
+
+tr.odd {
+  background-color: #dddddd;
+}
+
+tr:hover {
+  background-color: #88eeee;
+}
+
+.money {
+  text-align: right;
+}
