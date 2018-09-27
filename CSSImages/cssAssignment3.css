@@ -1,0 +1,44 @@
+
+  body {
+    background-image: url("stars.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    text-align: center;
+
+  }
+
+  h1 {
+    color: #a2b7c2;
+  }
+
+  picFrame  {
+
+  }
+
+  figure {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img.top {
+    width: 300px;
+    height: 300px;
+  }
+
+  div.picFrame {
+    display: inline-block;
+    color: #a2b7c2;
+    width: 380px;
+    height: 380px;
+    background-color: #0f7184;
+    text-align: center;
+    padding-top: 30;
+  }
+
+  p {
+    color: #a2b7c2;
+  }
+
+  div.globe {
+    text-align: right;
+  }
