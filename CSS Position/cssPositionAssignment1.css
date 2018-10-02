@@ -1,0 +1,43 @@
+
+  body  {
+    width: 960px;
+    text-align: center;
+    color: black;
+    float: left;
+  }
+
+  div.px940  {
+    background-color: red;
+    width: 940px;
+    margin: 10px;
+    float: left;
+  }
+
+  div.px460 {
+    background-color: orange;
+    width: 460px;
+    margin: 10px;
+    float: left;
+  }
+
+  div.px300 {
+    background-color: yellow;
+    width: 300px;
+    margin: 10px;
+    float: left;
+  }
+
+  div.px220 {
+    background-color: green;
+    width: 220px;
+    margin: 10px;
+    float: left;
+  }
+
+
+  div.px140 {
+    background-color: blue;
+    width: 140px;
+    margin: 10px;
+    float: left;
+  }
