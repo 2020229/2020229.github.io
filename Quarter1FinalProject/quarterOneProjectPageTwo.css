@@ -1,0 +1,61 @@
+@import url("gridSystem.css");
+
+  body  {
+    background-color: #3e7cd8;
+  }
+  #nav, #feature, .article, #footer {
+    background-color: ##a8c2ea;
+    margin-top: 20px;
+    padding: 10px 0px 5px 0px;
+  }
+
+  pictFrame {
+
+  }
+
+  figcaption  {
+    margin-top: 20px;
+  }
+
+  table {
+    border-style: groove;
+    border-color: rgb(57,96,214);
+    border-width: 10px;
+    margin: auto;
+    padding: 20px;
+    align-content: center;
+    text-align:center;
+    background-color: rgb(255, 255, 255);
+  }
+
+  th {
+  border-style: solid;
+  padding: 15px;
+  font-size: 20px;
+  }
+
+  td {
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+  }
+
+  div.background {
+    background-color: #3a5f96;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+
+
+  }
+
+  div.backDrop  {
+    text-align: center;
+    background-color: #2f558e;
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: middle;
+    margin: auto;
+  }
