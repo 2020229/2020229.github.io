@@ -1,0 +1,43 @@
+@import url("gridSystem.css");
+
+h1  {
+  color: #93a1ba;
+}
+body  {
+  text-align: center;
+  background-color: #162955;
+}
+
+#nav  {
+  background-color: #0c5ad6;
+  padding: 2px;
+}
+
+li.nav {
+  display: inline;
+  padding: 5px;
+
+}
+
+#colLef, #colRig  {
+  background-color: #0c5ad6;
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.firstLi  {
+  padding: 40px;
+}
+
+.secondLi  {
+  padding: 7px;
+  display: inline;
+}
+
+.thirdLi  {
+  margin: auto;
+  display: inline;
+  padding-right: 20px;
+}

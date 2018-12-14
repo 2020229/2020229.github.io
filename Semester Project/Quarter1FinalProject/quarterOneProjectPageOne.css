@@ -1,0 +1,37 @@
+@import url("gridSystem.css");
+
+  body  {
+    text-align: center;
+    background-color: #3e7cd8;
+  }
+
+  li.nav {
+    display: inline;
+    padding: 5px;
+  }
+
+  #nav, #feature, .article, #footer {
+    background-color: #a8c2ea;
+    margin-top: 20px;
+    padding: 10px 0px 5px 0px;
+  }
+
+  #body {
+    background-color: #a8c2ea;
+  }
+
+  div.background {
+    background-color: #3a5f96;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+  }
+
+  div.backDrop  {
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
